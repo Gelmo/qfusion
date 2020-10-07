@@ -123,6 +123,7 @@ void CG_PrecacheSounds( void ) {
 	cgs.media.sfxVSaySounds[VSAY_ROGER] = CG_RegisterSfx( S_VSAY_ROGER );
 	cgs.media.sfxVSaySounds[VSAY_ARMORFREE] = CG_RegisterSfx( S_VSAY_ARMORFREE );
 	cgs.media.sfxVSaySounds[VSAY_AREASECURED] = CG_RegisterSfx( S_VSAY_AREASECURED );
+   	cgs.media.sfxVSaySounds[VSAY_SHUTUP] = CG_RegisterSfx( S_VSAY_SHUTUP );
 	cgs.media.sfxVSaySounds[VSAY_BOOMSTICK] = CG_RegisterSfx( S_VSAY_BOOMSTICK );
 	cgs.media.sfxVSaySounds[VSAY_GOTOPOWERUP] = CG_RegisterSfx( S_VSAY_GOTOPOWERUP );
 	cgs.media.sfxVSaySounds[VSAY_GOTOQUAD] = CG_RegisterSfx( S_VSAY_GOTOQUAD );
@@ -317,6 +318,7 @@ void CG_PrecacheShaders( void ) {
 	cgs.media.shaderVSayIcon[VSAY_ROGER] = CG_RegisterShader( PATH_VSAY_ROGER_ICON );
 	cgs.media.shaderVSayIcon[VSAY_ARMORFREE] = CG_RegisterShader( PATH_VSAY_ARMORFREE_ICON );
 	cgs.media.shaderVSayIcon[VSAY_AREASECURED] = CG_RegisterShader( PATH_VSAY_AREASECURED_ICON );
+   	cgs.media.shaderVSayIcon[VSAY_SHUTUP] = CG_RegisterShader( PATH_VSAY_SHUTUP_ICON );
 	cgs.media.shaderVSayIcon[VSAY_BOOMSTICK] = CG_RegisterShader( PATH_VSAY_BOOMSTICK_ICON );
 	cgs.media.shaderVSayIcon[VSAY_GOTOPOWERUP] = CG_RegisterShader( PATH_VSAY_GOTOPOWERUP_ICON );
 	cgs.media.shaderVSayIcon[VSAY_GOTOQUAD] = CG_RegisterShader( PATH_VSAY_GOTOQUAD_ICON );
