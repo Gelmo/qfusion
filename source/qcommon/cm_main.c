@@ -267,7 +267,7 @@ cmodel_t *CM_LoadMap( cmodel_state_t *cms, const char *name, bool clientload, un
 		Com_Error( ERR_DROP, "CM_LoadMap: %s: unknown bsp format", name );
 	}
 
-	// copy header into temp variable to be saveed in a cvar
+	// copy header into temp variable to be saved in a cvar
 	header = Mem_TempMalloc( descr->headerLen + 1 );
 	memcpy( header, buf, descr->headerLen );
 	header[descr->headerLen] = '\0';
