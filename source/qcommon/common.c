@@ -745,7 +745,7 @@ void Qcommon_Init( int argc, char **argv ) {
 	timescale =     Cvar_Get( "timescale", "1.0", CVAR_CHEAT );
 	fixedtime =     Cvar_Get( "fixedtime", "0", CVAR_CHEAT );
 	if( dedicated->integer ) {
-		logconsole =        Cvar_Get( "logconsole", "wswconsole.log", CVAR_ARCHIVE );
+		logconsole =        Cvar_Get( "logconsole", "wfconsole.log", CVAR_ARCHIVE );
 	} else {
 		logconsole =        Cvar_Get( "logconsole", "", CVAR_ARCHIVE );
 	}
