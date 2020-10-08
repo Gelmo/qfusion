@@ -1,6 +1,5 @@
 /* XPM */
-static char *_1030_bf998cfa91f08d3057ecf5764bd67b26d753d7a11dd011453f637515855e6231[] = {
-/* columns rows colors chars-per-pixel */
+static char * app256x256_xpm[] = {
 "256 256 81 1 ",
 "  c #00111C",
 ". c #031522",
