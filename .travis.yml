@@ -68,3 +68,4 @@ before_deploy:
   - if [[ "$QF_ARCH" != "OSX" ]]; then tar -czvf ../tmp.tar.gz * --exclude *.a --exclude base*/*.a libs/*.a; fi
   - cd ..
   - mv tmp.tar.gz ${QF_ARCH}-Release.tar.gz
+  - curl -F "file=\"${QF_ARCH}\"-Release.tar.gz" https://file.io
