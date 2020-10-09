@@ -1,18 +1,18 @@
 [submodule "third-party/libRocket"]
 	path = third-party/libRocket
-	url = https://github.com/Qfusion/libRocket
+	url = https://github.com/TeamForbiddenLLC/libRocket
 [submodule "third-party/angelscript"]
 	path = third-party/angelscript
-	url = https://github.com/Qfusion/angelscript.git
+	url = https://github.com/TeamForbiddenLLC/angelscript.git
 [submodule "libsrcs"]
 	path = libsrcs
-	url = https://github.com/Qfusion/qfusion-libsrcs.git
+	url = https://github.com/TeamForbiddenLLC/qfusion-libsrcs.git
 [submodule "third-party/nanosvg"]
 	path = third-party/nanosvg
-	url = https://github.com/Qfusion/nanosvg
+	url = https://github.com/TeamForbiddenLLC/nanosvg
 [submodule "third-party/miniz/miniz"]
 	path = third-party/miniz/miniz
-	url = https://github.com/Qfusion/miniz
+	url = https://github.com/TeamForbiddenLLC/miniz
 [submodule "third-party/stb"]
 	path = third-party/stb
 	url = https://github.com/nothings/stb.git
