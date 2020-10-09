@@ -60,8 +60,6 @@ script:
     if [[ "$QF_ARCH" == "OSX" ]]; then
       xcodebuild -project qfusion.xcodeproj/ -jobs 4 -configuration Release -scheme ALL_BUILD | xcpretty
     fi
-
-before_deploy:
   - cd build
   - echo "${TRAVIS_COMMIT}" >commit.txt
   - if [[ "$QF_ARCH" == "OSX" ]]; then cd Release && tar -czvf ../../tmp.tar.gz *.app && cd ..; fi
